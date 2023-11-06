@@ -1102,9 +1102,9 @@
     fastq "^1.6.0"
 
 "@snyk/protect@^1.1034.0":
-  version "1.1092.0"
-  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1092.0.tgz#203aed9aaac33959ad91af3c0d73144e0ccc82bc"
-  integrity sha512-KXNz7a2ksGpS57ILtfEmX0paOs9uFxEaaSuSMY11pwkb22czkdJprmPDmK7r24E3KArVKdwNpJkNmvV1gb9KyQ==
+  version "1.1238.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1238.0.tgz#39b88c4ac178e25f20f15348a9e7a44afa1350c8"
+  integrity sha512-5n309NbhWl2g51ylyQguWOFQ1ahUW+BLkwiKRGW15f04HCi/Mc2gdInjvyAT8131UHgoMiEubDymT6F8Kdn2lA==
 
 "@trysound/sax@0.2.0":
   version "0.2.0"
