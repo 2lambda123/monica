@@ -126,7 +126,7 @@ jobs:
         run: yarn run production
 
       - name: Store assets
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: assets
           path: |
@@ -137,7 +137,7 @@ jobs:
             !public/**/*.map
 
       - name: Store source maps
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: sourcemaps
           path: |
