@@ -2490,92 +2490,6 @@
             "time": "2023-12-03T19:50:20+00:00"
         },
         {
-            "name": "guzzlehttp/uri-template",
-            "version": "v1.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/uri-template.git",
-                "reference": "ecea8feef63bd4fef1f037ecb288386999ecc11c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/uri-template/zipball/ecea8feef63bd4fef1f037ecb288386999ecc11c",
-                "reference": "ecea8feef63bd4fef1f037ecb288386999ecc11c",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.2.5 || ^8.0",
-                "symfony/polyfill-php80": "^1.24"
-            },
-            "require-dev": {
-                "bamarni/composer-bin-plugin": "^1.8.2",
-                "phpunit/phpunit": "^8.5.36 || ^9.6.15",
-                "uri-template/tests": "1.0.0"
-            },
-            "type": "library",
-            "extra": {
-                "bamarni-bin": {
-                    "bin-links": true,
-                    "forward-command": false
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\UriTemplate\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Graham Campbell",
-                    "email": "hello@gjcampbell.co.uk",
-                    "homepage": "https://github.com/GrahamCampbell"
-                },
-                {
-                    "name": "Michael Dowling",
-                    "email": "mtdowling@gmail.com",
-                    "homepage": "https://github.com/mtdowling"
-                },
-                {
-                    "name": "George Mponos",
-                    "email": "gmponos@gmail.com",
-                    "homepage": "https://github.com/gmponos"
-                },
-                {
-                    "name": "Tobias Nyholm",
-                    "email": "tobias.nyholm@gmail.com",
-                    "homepage": "https://github.com/Nyholm"
-                }
-            ],
-            "description": "A polyfill class for uri_template of PHP",
-            "keywords": [
-                "guzzlehttp",
-                "uri-template"
-            ],
-            "support": {
-                "issues": "https://github.com/guzzle/uri-template/issues",
-                "source": "https://github.com/guzzle/uri-template/tree/v1.0.3"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/GrahamCampbell",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/Nyholm",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/uri-template",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2023-12-03T19:50:20+00:00"
-        },
-        {
             "name": "hashids/hashids",
             "version": "4.1.0",
             "source": {
@@ -4797,23 +4711,23 @@
         },
         {
             "name": "moneyphp/money",
-            "version": "v4.1.0",
+            "version": "v4.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/moneyphp/money.git",
-                "reference": "c8eeeb1f7b7e6ca95490b94a301dc9cb8cb76c2d"
+                "reference": "5e60aebf09f709dd4ea16bf85e66d65301c0d172"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moneyphp/money/zipball/c8eeeb1f7b7e6ca95490b94a301dc9cb8cb76c2d",
-                "reference": "c8eeeb1f7b7e6ca95490b94a301dc9cb8cb76c2d",
+                "url": "https://api.github.com/repos/moneyphp/money/zipball/5e60aebf09f709dd4ea16bf85e66d65301c0d172",
+                "reference": "5e60aebf09f709dd4ea16bf85e66d65301c0d172",
                 "shasum": ""
             },
             "require": {
                 "ext-bcmath": "*",
                 "ext-filter": "*",
                 "ext-json": "*",
-                "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
+                "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0"
             },
             "require-dev": {
                 "cache/taggable-cache": "^1.1.0",
@@ -4828,11 +4742,10 @@
                 "php-http/message": "^1.11.0",
                 "php-http/mock-client": "^1.4.1",
                 "phpbench/phpbench": "^1.2.5",
-                "phpspec/phpspec": "^7.3",
                 "phpunit/phpunit": "^9.5.4",
                 "psalm/plugin-phpunit": "^0.18.4",
-                "psr/cache": "^1.0.1",
-                "vimeo/psalm": "~5.3.0"
+                "psr/cache": "^1.0.1 || ^2.0 || ^3.0",
+                "vimeo/psalm": "~5.15.0"
             },
             "suggest": {
                 "ext-gmp": "Calculate without integer limits",
@@ -4880,9 +4793,9 @@
             ],
             "support": {
                 "issues": "https://github.com/moneyphp/money/issues",
-                "source": "https://github.com/moneyphp/money/tree/v4.1.0"
+                "source": "https://github.com/moneyphp/money/tree/v4.4.0"
             },
-            "time": "2022-12-19T20:35:32+00:00"
+            "time": "2024-01-24T08:29:16+00:00"
         },
         {
             "name": "monicahq/laravel-cloudflare",
