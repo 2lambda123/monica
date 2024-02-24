@@ -12296,16 +12296,16 @@
         },
         {
             "name": "web-token/jwt-key-mgmt",
-            "version": "3.1.5",
+            "version": "3.2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/web-token/jwt-key-mgmt.git",
-                "reference": "dec3ba60344bfda18e36de78fb80a2cdd8f04df5"
+                "reference": "7ccd50f9ebf089cb864e3d3c62017192ac7cb450"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/web-token/jwt-key-mgmt/zipball/dec3ba60344bfda18e36de78fb80a2cdd8f04df5",
-                "reference": "dec3ba60344bfda18e36de78fb80a2cdd8f04df5",
+                "url": "https://api.github.com/repos/web-token/jwt-key-mgmt/zipball/7ccd50f9ebf089cb864e3d3c62017192ac7cb450",
+                "reference": "7ccd50f9ebf089cb864e3d3c62017192ac7cb450",
                 "shasum": ""
             },
             "require": {
@@ -12313,7 +12313,7 @@
                 "php": ">=8.1",
                 "psr/http-client": "^1.0",
                 "psr/http-factory": "^1.0",
-                "web-token/jwt-core": "^3.0"
+                "web-token/jwt-core": "^3.2"
             },
             "suggest": {
                 "ext-sodium": "Sodium is required for OKP key creation, EdDSA signature algorithm and ECDH-ES key encryption with OKP keys",
@@ -12362,7 +12362,7 @@
                 "symfony"
             ],
             "support": {
-                "source": "https://github.com/web-token/jwt-key-mgmt/tree/3.1.5"
+                "source": "https://github.com/web-token/jwt-key-mgmt/tree/3.2.10"
             },
             "funding": [
                 {
@@ -12370,7 +12370,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-12-23T13:35:01+00:00"
+            "time": "2024-02-12T21:58:26+00:00"
         },
         {
             "name": "web-token/jwt-signature",
