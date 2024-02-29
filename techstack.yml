@@ -1,0 +1,1120 @@
+repo_name: 2lambda123/monica
+report_id: 1ef7ceedcaba38e352e53fb56bfe393f
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:14:23+00:00'
+requested_by: 2lambda123
+provider: github
+branch: main
+detected_tools_count: 97
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/package.json
+  detection_source: package.json
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/monica
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/scripts/database.test.sql
+  detection_source: scripts/database.test.sql
+- name: 'Animate.css '
+  description: A library of CSS animations
+  website_url: https://animate.style/
+  version: 4.1.1
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/9195/default_5aa00f79c6648507ba5f6c66c130a832332e5adc.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 4.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: Guzzle
+  description: PHP HTTP client that makes it easy to send HTTP requests and trivial
+    to integrate with web services
+  website_url: http://guzzlephp.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/2350/638632.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.json
+  detection_source: composer.json
+- name: Laravel
+  description: A PHP Framework For Web Artisans
+  website_url: http://laravel.com/
+  version: 9.52.16
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/992/AcA2LnWL_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/package.json
+  detection_source: package.json
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/package.json
+  detection_source: package.json
+- name: Symfony
+  description: A PHP full-stack web framework
+  website_url: http://symfony.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1197/logosf_positif_03_icon.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.json
+  detection_source: composer.json
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 2.7.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: tachyons
+  description: Quickly build and design new UI without writing css
+  website_url: http://tachyons.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/4927/GQu0BPhA_200x200.jpg
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/package.json
+  detection_source: package.json
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.json
+  detection_source: composer.json
+- name: Composer
+  description: Dependency Manager for PHP
+  website_url: https://getcomposer.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/1688/New_Project__65_.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/scripts/docker/Dockerfile
+  detection_source: scripts/docker/Dockerfile
+- name: Cypress
+  description: When testing is easy, developers build better things faster and with
+    confidence.
+  website_url: https://www.cypress.io/
+  version: 7.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/2lambda123/monica
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/package.json
+  detection_source: package.json
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/monica
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/.github/workflows/build.yml
+  detection_source: ".github/workflows/build.yml"
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 9.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: 9.5.28
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: PhpSpec
+  description: A  toolset for behavior driven development
+  website_url: http://www.phpspec.net/en/latest/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/3502/6b9dfb07681dee602dbdf75d9393f07c_400x400.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/scripts/docker/Dockerfile
+  detection_source: scripts/docker/Dockerfile
+- name: Snyk
+  description: Automatically find &amp; fix vulnerabilities in your code, containers,
+    Kubernetes, and Terraform
+  website_url: https://snyk.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5326/6p1SNAJu.jpg
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/.snyk
+  detection_source: ".snyk"
+- name: Vagrant
+  description: A tool for building and distributing development environments
+  website_url: http://www.vagrantup.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Management
+  image_url: https://img.stackshare.io/service/768/150px-Vagrant.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/scripts/vagrant/Vagrantfile
+  detection_source: scripts/vagrant/Vagrantfile
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.89.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: yarn.lock
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/package.json
+  detection_source: package.json
+- name: Heroku
+  description: Build, deliver, monitor and scale web apps and APIs with a trail blazing
+    developer experience.
+  website_url: https://www.heroku.com
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/133/3wgIDj3j.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/Procfile
+  detection_source: Procfile
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/monica
+  detection_source: Repo Metadata
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.21.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: laravel-mix
+  description: A framework for web artisans.
+  website_url: https://laravel.com/docs/5.5/mix
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7945/h7umz7fz_normal.jpg
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/package.json
+  detection_source: package.json
+- name: bacon/bacon-qr-code
+  description: BaconQrCode is a QR code generator for PHP
+  package_url: https://packagist.org/bacon/bacon-qr-code
+  version: 2.0.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: barryvdh/laravel-debugbar
+  description: PHP Debugbar integration for Laravel
+  package_url: https://packagist.org/barryvdh/laravel-debugbar
+  version: 3.7.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: creativeorange/gravatar
+  description: A Laravel Gravatar package for retrieving gravatar image URLs or checking
+    the existance of an image
+  package_url: https://packagist.org/creativeorange/gravatar
+  version: 1.0.22
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: doctrine/dbal
+  description: Powerful PHP database abstraction layer
+  package_url: https://packagist.org/doctrine/dbal
+  version: 3.5.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: erusev/parsedown
+  description: Parser for Markdown
+  package_url: https://packagist.org/erusev/parsedown
+  version: 1.7.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: giggsey/libphonenumber-for-php
+  description: PHP Port of Google's libphonenumber
+  package_url: https://packagist.org/giggsey/libphonenumber-for-php
+  version: 8.13.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: guzzlehttp/guzzle
+  description: Guzzle is a PHP HTTP client library
+  package_url: https://packagist.org/guzzlehttp/guzzle
+  version: 7.8.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: guzzlehttp/psr7
+  description: PSR-7 message implementation that also provides common utility methods
+  package_url: https://packagist.org/guzzlehttp/psr7
+  version: 2.6.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: intervention/image
+  description: PHP image manipulation
+  package_url: https://packagist.org/intervention/image
+  version: 2.7.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: khanamiryan/qrcode-detector-decoder
+  description: QR code decoder / reader
+  package_url: https://packagist.org/khanamiryan/qrcode-detector-decoder
+  version: 2.0.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: laravel/cashier
+  description: Laravel Cashier provides an expressive
+  package_url: https://packagist.org/laravel/cashier
+  version: 13.16.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: laravel/dusk
+  description: Laravel Dusk provides simple end-to-end testing and browser automation
+  package_url: https://packagist.org/laravel/dusk
+  version: 7.12.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: laravel/framework
+  description: The Laravel Framework
+  package_url: https://packagist.org/laravel/framework
+  version: 9.52.16
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: laravel/passport
+  description: Laravel Passport provides OAuth2 server support to Laravel
+  package_url: https://packagist.org/laravel/passport
+  version: 11.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: laravel/socialite
+  description: Laravel wrapper around OAuth 1 &amp; OAuth 2 libraries
+  package_url: https://packagist.org/laravel/socialite
+  version: 5.6.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: laravel/tinker
+  description: Powerful REPL for the Laravel framework
+  package_url: https://packagist.org/laravel/tinker
+  version: 2.8.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: laravel/ui
+  description: Laravel UI utilities and presets
+  package_url: https://packagist.org/laravel/ui
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: laravolt/avatar
+  description: Turn name
+  package_url: https://packagist.org/laravolt/avatar
+  version: 4.1.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: league/flysystem-aws-s3-v3
+  description: AWS S3 filesystem adapter for Flysystem
+  package_url: https://packagist.org/league/flysystem-aws-s3-v3
+  version: 3.12.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: mariuzzo/laravel-js-localization
+  description: Laravel Localization in JavaScript
+  package_url: https://packagist.org/mariuzzo/laravel-js-localization
+  version: 1.9.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: mockery/mockery
+  description: Mockery is a simple yet flexible PHP mock object framework
+  package_url: https://packagist.org/mockery/mockery
+  version: 1.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: moneyphp/money
+  description: PHP implementation of Fowler's Money pattern
+  package_url: https://packagist.org/moneyphp/money
+  version: 4.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: nunomaduro/collision
+  description: Cli error handling for console/command-line PHP applications
+  package_url: https://packagist.org/nunomaduro/collision
+  version: 6.4.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: nunomaduro/larastan
+  description: Larastan - Discover bugs in your code without running it
+  package_url: https://packagist.org/nunomaduro/larastan
+  version: 2.7.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: phar-io/version
+  description: Library for handling version information and constraints
+  package_url: https://packagist.org/phar-io/version
+  version: 3.2.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: phpunit/phpcov
+  description: CLI frontend for php-code-coverage
+  package_url: https://packagist.org/phpunit/phpcov
+  version: 8.2.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: 9.5.28
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: pragmarx/google2fa
+  description: A One Time Password Authentication package
+  package_url: https://packagist.org/pragmarx/google2fa
+  version: 8.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: pragmarx/google2fa-laravel
+  description: A One Time Password Authentication package
+  package_url: https://packagist.org/pragmarx/google2fa-laravel
+  version: 2.0.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: predis/predis
+  description: A flexible and feature-complete Redis client for PHP
+  package_url: https://packagist.org/predis/predis
+  version: 2.1.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: roave/security-advisories
+  description: 'Prevents installation of composer packages with known security vulnerabilities:
+    no API'
+  package_url: https://packagist.org/roave/security-advisories
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.json
+  detection_source: composer.json
+- name: sabre/dav
+  description: WebDAV Framework for PHP
+  package_url: https://packagist.org/sabre/dav
+  version: 4.4.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: sentry/sentry-laravel
+  description: Laravel SDK for Sentry
+  package_url: https://packagist.org/sentry/sentry-laravel
+  version: 2.14.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: spatie/macroable
+  description: A trait to dynamically add methods to a class
+  package_url: https://packagist.org/spatie/macroable
+  version: 2.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: stevebauman/location
+  description: Retrieve a user's location by their IP Address
+  package_url: https://packagist.org/stevebauman/location
+  version: 6.5.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: symfony/http-client
+  description: Provides powerful methods to fetch HTTP resources synchronously or
+    asynchronously
+  package_url: https://packagist.org/symfony/http-client
+  version: 6.2.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: symfony/translation
+  description: Provides tools to internationalize your application
+  package_url: https://packagist.org/symfony/translation
+  version: 6.4.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: thecodingmachine/phpstan-safe-rule
+  description: A PHPStan rule to detect safety issues
+  package_url: https://packagist.org/thecodingmachine/phpstan-safe-rule
+  version: 1.2.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: thecodingmachine/safe
+  description: PHP core functions that throw exceptions instead of returning FALSE
+    on error
+  package_url: https://packagist.org/thecodingmachine/safe
+  version: 2.4.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: vimeo/psalm
+  description: A static analysis tool for finding errors in PHP applications
+  package_url: https://packagist.org/vimeo/psalm
+  version: 5.18.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: vinkla/hashids
+  description: A Hashids bridge for Laravel
+  package_url: https://packagist.org/vinkla/hashids
+  version: 10.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/composer.lock
+  detection_source: composer.json
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: eslint-config-standard
+  description: JavaScript Standard Style - ESLint Shareable Config
+  package_url: https://www.npmjs.com/eslint-config-standard
+  version: 16.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15872/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: eslint-plugin-cypress
+  description: An ESLint plugin for projects using Cypress
+  package_url: https://www.npmjs.com/eslint-plugin-cypress
+  version: 2.15.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18548/default_0998c3a5bd64540d478b8f189bd9d22c3c17b6a0.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.29.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: eslint-plugin-node
+  description: Additional ESLint's rules for Node.js
+  package_url: https://www.npmjs.com/eslint-plugin-node
+  version: 11.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15874/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: eslint-plugin-promise
+  description: Enforce best practices for JavaScript promises
+  package_url: https://www.npmjs.com/eslint-plugin-promise
+  version: 6.1.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15885/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: eslint-plugin-standard
+  description: ESlint Plugin for the Standard Linter
+  package_url: https://www.npmjs.com/eslint-plugin-standard
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15884/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: eslint-plugin-vue
+  description: Official ESLint plugin for Vue.js
+  package_url: https://www.npmjs.com/eslint-plugin-vue
+  version: 7.20.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15950/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: faker
+  description: Generate massive amounts of fake contextual data
+  package_url: https://www.npmjs.com/faker
+  version: 5.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16327/default_1baba0e6ece19a38adfb211f686c83c781ff703a.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: font-awesome
+  description: The iconic font and CSS framework
+  package_url: https://www.npmjs.com/font-awesome
+  version: 4.7.0
+  license: OFL-1.1,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16160/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: laravel-mix
+  description: Laravel Mix is an elegant wrapper around Webpack for the 80% use case
+  package_url: https://www.npmjs.com/laravel-mix
+  version: 6.0.49
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17350/default_33c3173e7d0e91f7cea0eab9883ca83b157bd4a5.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: marked
+  description: A markdown parser built for speed
+  package_url: https://www.npmjs.com/marked
+  version: 2.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+  vulnerabilities:
+  - name: Inefficient Regular Expression Complexity in marked
+    cve_id: CVE-2022-21681
+    cve_url: https://github.com/advisories/GHSA-5v2h-r2cx-5xgj
+    detected_date: Jan 15
+    severity: high
+    first_patched: 4.0.10
+  - name: Inefficient Regular Expression Complexity in marked
+    cve_id: CVE-2022-21680
+    cve_url: https://github.com/advisories/GHSA-rrrm-qjm4-v8hf
+    detected_date: Jan 15
+    severity: high
+    first_patched: 4.0.10
+- name: mocha-junit-reporter
+  description: A JUnit reporter for mocha
+  package_url: https://www.npmjs.com/mocha-junit-reporter
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16739/default_ee69dab268e6a52104564fd4259549f5b48a25d4.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: moment-timezone
+  description: Parse and display moments in any timezone
+  package_url: https://www.npmjs.com/moment-timezone
+  version: 0.5.43
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16298/default_8b65a873fd3277d73483d6846fa38192391abf23.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: popper.js
+  description: A kickass library to manage your poppers
+  package_url: https://www.npmjs.com/popper.js
+  version: 1.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16357/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: resolve-url-loader
+  description: Webpack loader that resolves relative paths in url
+  package_url: https://www.npmjs.com/resolve-url-loader
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16468/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 11.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 2.7.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: vue-i18n
+  description: Internationalization plugin for Vue.js
+  package_url: https://www.npmjs.com/vue-i18n
+  version: 8.28.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16963/default_ebf16e0c8af5e95030933d9e01479224b6665289.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: vue-loader
+  description: "&gt; webpack loader for Vue Single-File Components"
+  package_url: https://www.npmjs.com/vue-loader
+  version: 15.11.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15901/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
+- name: vue-template-compiler
+  description: Template compiler for Vue 2.0
+  package_url: https://www.npmjs.com/vue-template-compiler
+  version: 2.7.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15850/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/2lambda123/monica/blob/main/yarn.lock
+  detection_source: package.json
